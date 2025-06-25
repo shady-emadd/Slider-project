@@ -1,0 +1,48 @@
+figure figcaption {
+  width: calc(100% - 20px);
+  left: 10px;
+  bottom: 0;
+  transform: translateY(100%);
+  transition: transform 200ms;
+}
+
+figure:hover figcaption {
+  transform: translateY(-10px);
+}
+
+figure img {
+  cursor: pointer;
+}
+
+.model {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.model-content {
+  width: fit-content;
+}
+.model-content i {
+  position: absolute;
+  font-size: 23px;
+  cursor: pointer;
+}
+
+.model-content img {
+  width: 700px;
+  object-fit: cover;
+}
+
+.closeBtn {
+  top: 20px;
+  right: 20px;
+}
+.previousBtn {
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.nextBtn {
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
